@@ -8,6 +8,11 @@
 	<meta name="description" content="" />
 	<link href="css/style.css" rel="stylesheet">
 	<script defer type="text/javascript" src='js/js.js'></script>
+
+  <script defer type="text/javascript" src='js/bluzka.js'></script>
+  <script defer type="text/javascript" src='js/body.js'></script>
+
+  <script defer type="text/javascript" src='js/grandImg.js'></script>
 	<script defer type="text/javascript" src='js/jquery-3.1.1.min.js'></script>
 </head>
 
@@ -28,16 +33,36 @@
 	<div class="middle">
 
 		<div class="container">
-			<main class="content">
+			<main class="content" id="info_odejda">
 				
 
 
 <!-- <iframe src="http://zfilm-hd.net/23436-povtornaya-zhizn.html" frameborder="0" width="100%" height="100%" marginwidth=0 marginheight=0 hspace=0 vspace=0 scrolling=no></iframe> -->
 
-<div id='outerdiv'> 
+<!-- <div id='outerdiv'> 
 <iframe src="http://vdalapokupka.ua/products/358" id='innerIframe' scrolling=no></iframe> 
 </div> 
+ -->
 
+      <div class="fon_index">
+        <p class="fon_p">ДОПОЛНИТЕЛЬНАЯ СКИДКА УЖЕ С ПЕРВОЙ ПОКУПКИ</p>
+        <img style="float: left; margin-right: 20px;" src="img/vp_18_0.jpg">
+        <p class="fon_p1">Такого еще не было! 12.11.16 началась супер распродажа всего товара на который уже скидки от 50% до 90%. Мы дарим вам еще дополнительные моментальные скидки 5%-15% Уважаемые Покупатели с 12.11.16 по 08.01.2017 (включительно)Сделав покупку..</p>
+      </div>
+
+      <div class="fon_index cursor_pointer" onclick="bluzka()">
+        <p class="fon_p">ЛУЧШИЕ СКИДКИ НА БЛУЗЫ</p>
+        <p class="fon_p">BLACK FRIDAY</p>
+        <img style="float: left; margin-right: 20px;" src="img/vp_20.jpg">
+        <p class="fon_p1"> Только 7 дней с 21.11.16 по 28.11.16 (включительно) на все товары где скидки уже -70% -90%  дополнительная скидка к Вашей карте -20%!*cкидки по этой акции не суммируются к скидкам по другим акциям Ждем вас ежедневно с 10 до 20 часов...</p>
+      </div>
+
+
+    <div class="fon_index">
+        <p class="fon_p">АКЦИЯ: КАРТА КЛУБА ВДАЛА ПОКУПКА В ПОДАРОК</p>
+        <img style="float: left; margin-right: 20px;" src="img/vp_17_1.jpg">
+        <p class="fon_p1">Уважаемые Покупатели с 12.11.16 по 08.01.2017 (включительно) сделав покупку на 500грн или предъявив чеки на 500грн за более ранний период, Вы получаете дисконтную карточку клуба "ВДАЛА ПОКУПКА" (стоимостью 100грн) в подарок, которая будет...</p>
+      </div>
 
 
 			</main><!-- .content -->
@@ -49,7 +74,7 @@
 			
 			
 <div class="container">		
-	 				  
+	 		 
 
 <div class=" block">
 
@@ -58,29 +83,26 @@
 <div class="view-categories">
     <ul>
      
-		  <li><span class="field-content"><a href="#">Блузы</a></span>
+		  <li  onclick="bluzka()"><span class="field-content"><a href="#">Блузы</a></span>
  
   </li>
-  <li><span class="field-content"><a href="#">Боди</a></span>
+  <li  onclick="bluzka1(1)"><span class="field-content"><a href="#">Боди</a></span>
    
   </li>
-  <li><span class="field-content"><a href="#">Болеро</a></span>
+  <li onclick="bluzka1(2)"><span class="field-content"><a href="#">Болеро</a></span>
     
   </li>
-  <li><span class="field-content"><a href="#">Босоножки</a></span>
+  <li onclick="bluzka1(3)"><span class="field-content"><a href="#">Босоножки</a></span>
    
   </li>
-        <li><span class="field-content"><a href="#">Ботильоны</a></span>
+        <li onclick="bluzka1(4)"><span class="field-content"><a href="#">Ботильоны</a></span>
     
   </li>
-        <li><span class="field-content"><a href="#">Ботинки</a></span>
+        <li onclick="bluzka1(5)"><span class="field-content"><a href="#">Ботинки</a></span>
 
   </li>
         <li><span class="field-content"><a href="#">Брюки</a></span>
 
-  </li>
-        <li><span class="field-content"><a href="#">Варежки</a></span>
-    
   </li>
         <li><span class="field-content"><a href="#">Ветровки</a></span>
 

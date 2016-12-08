@@ -148,7 +148,7 @@ h2{
 	width: 70px;
 	height: 60px;
 	background: url(../img/gif/kote.gif) no-repeat;
-
+cursor: pointer;
 
 position: fixed; /* Фиксированное положение */
     right: 10px; /* Расстояние от правого края окна браузера */
@@ -178,14 +178,88 @@ left: 100%;*/
 }
 
 
+.price_color{
+	 color: red; /* Цвет символа */
+}
 
-#outerdiv 
+.cursor_pointer{
+	cursor: pointer;
+}
+
+
+#div_okno{
+	position: fixed; /* Фиксированное положение */
+    left: 0; /* Расстояние от правого края окна браузера */
+    top: 0; /* Расстояние сверху */
+    width: 100%;
+    height: 100%;
+	background: #000;
+	opacity: 0.6;
+	/*z-index: 10;*/
+	
+}
+
+
+#div_okno_img{
+	/*position: fixed;*/
+			/*margin: 100px auto 0;*/
+			/*width: 500px;*/
+			/*overflow: hidden;*/
+			/*z-index: 1001;*/
+			/*height: 700px;*/
+			/*border: 1px solid #4c6a8a;*/
+			 /*background-size: cover;*/
+			border: 0px double black;
+			 
+}
+
+.fon_index{
+	width: 96%; 
+	height: 140px; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px inset #97D9F7;
+	padding: 10px;
+}
+
+.fon_p{
+	color:red;
+	font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.fon_p1{
+color: #444444;
+    line-height: 18px;
+
+}
+
+.line_glavnaja{
+	margin-bottom: 20px;
+	background: #EFEFEF;
+}
+
+.line_glavnaja p{
+	display: block;
+    float: left;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    padding: 0px 32px 0 33px;
+    height: 54px;
+}
+
+/*#outerdiv 
 { 
 width:756px; 
 height:1096px; 
 overflow:hidden; 
 position:relative; 
 }
+
 
 #innerIframe 
 { 
@@ -194,4 +268,34 @@ top:-550px;
 left:-79px; 
 width:1280px; 
 height:1500px; 
+}*/
+
+
+a.button15 {
+  display: inline-block;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(68,68,68);
+  text-decoration: none;
+  user-select: none;
+  padding: 1.1em 1.2em;
+  outline: none;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+  transition: all .218s ease 0s;
+  /*height: 40px;*/
+}
+a.button15:hover {
+  color: rgb(24,24,24);
+  border: 1px solid rgb(198,198,198);
+  background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+a.button15:active {
+  color: rgb(51,51,51);
+  border: 1px solid rgb(204,204,204);
+  background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+  box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
 }
