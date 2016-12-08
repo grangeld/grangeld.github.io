@@ -114,7 +114,13 @@ info_odejda.appendChild(div);
 		 div.parentNode.insertBefore(divK, div.nextSibling);
 	}
 
-	
+var h = $('#otstyp_1').css('height');
+var div5 = document.createElement('div');
+div5.style.width = '95%';
+div5.style.height = h;
+// div5.style.background = 'yellow';
+info_odejda.appendChild(div5);
+
 
 }
 
