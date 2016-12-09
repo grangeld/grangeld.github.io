@@ -67,7 +67,7 @@ else
 		  clearInterval(timer1);
 		  numERIK++;
 		  if(numERIK == 1000) numERIK = 0;
-		}, 1000);
+		}, 1100);
 		// alert(dom1.style.opacity);
 
 
